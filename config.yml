@@ -1,0 +1,76 @@
+# NAR Funding Radar v1.0 - 2026
+min_year: 2025
+max_pages_per_source: 30
+request_delay_sec: 2
+
+core_keywords:  # явная тематика NAR
+  - aging
+  - ageing
+  - gerontology
+  - geriatrics
+  - dementia
+  - alzheimer
+  - caregiving
+  - "long-term care"
+  - "health services"
+  - loneliness
+  - "social isolation"
+  - agetech
+  - "digital health"
+
+adjacent_keywords:  # смежные окна
+  - "social transformation"
+  - "civil society"
+  - "vulnerable groups"
+  - "health equity"
+  - "participation"
+  - "inclusion"
+  - "co-creation"
+  - "municipal innovation"
+  - "care systems"
+
+call_markers:
+  url:
+    - call
+    - grant
+    - funding
+    - tender
+    - ausschreibung
+    - förder
+    - förderung
+    - proposal
+    - antrag
+    - frist
+    - deadline
+  anchor:
+    - Call
+    - Ausschreibung
+    - Förderaufruf
+    - Förderprogramm
+    - Grants
+    - Funding
+
+blocklist:
+  - impressum
+  - datenschutz
+  - privacy
+  - legal
+  - jobs
+  - karriere
+  - news
+  - presse
+  - events
+  - timeline
+
+email:
+  smtp_host: ""      # заполни позже
+  smtp_port: 587
+  smtp_user: ""
+  smtp_pass: ""      # GitHub Secret
+  from_email: ""
+  to_emails:
+    - "sergey@nar.uni-heidelberg.de"
+
+scoring:
+  min_score_fixed: 4.0
+  min_score_evergreen: 6.0
