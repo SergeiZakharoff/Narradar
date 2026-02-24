@@ -1,0 +1,82 @@
+sources:
+  # Агрегаторы (discovery)
+  - name: Deutsches Stiftungszentrum
+    url: "https://www.deutsches-stiftungszentrum.de/stiftungen"
+    category: DE_AGGREGATOR
+    priority: 1
+
+  - name: Stiftungen.org
+    url: "https://www.stiftungen.org/stiftungen/finanzierung/"
+    category: DE_AGGREGATOR
+    priority: 1
+
+  # Министерства + DFG (высокий приоритет)
+  - name: DFG Announcements
+    url: "https://www.dfg.de/en/research_funding/announcements_proposals"
+    category: DE_MINISTRY
+    priority: 1
+
+  - name: BMBF Bekanntmachungen
+    url: "https://www.bmbf.de/bmbf/de/service/bekanntmachungen/bekanntmachungen_node.html"
+    category: DE_MINISTRY
+    priority: 1
+
+  - name: BMG Health Research
+    url: "https://www.bundesgesundheitsministerium.de/themen/gesundheitsforschung/foerderung.html"
+    category: DE_MINISTRY
+    priority: 1
+
+  # Ключевые фонды NAR
+  - name: Robert Bosch Stiftung
+    url: "https://www.bosch-stiftung.de/en/what-we-fund"
+    category: DE_FOUNDATION
+    adjacent_boost: true
+    priority: 1
+
+  - name: VolkswagenStiftung
+    url: "https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio"
+    category: DE_FOUNDATION
+    adjacent_boost: true
+    priority: 1
+
+  - name: Mercator Stiftung
+    url: "https://www.stiftung-mercator.de/en/areas-of-activity"
+    category: DE_FOUNDATION
+    priority: 2
+
+  - name: Stifterverband
+    url: "https://www.stifterverband.org/foerderung/"
+    category: DE_FOUNDATION
+    priority: 2
+
+  # Baden-Württemberg + локальные
+  - name: BW Stiftung Ausschreibungen
+    url: "https://www.bwstiftung.de/foerderung/ausschreibungen"
+    category: DE_FOUNDATION
+    priority: 1
+
+  - name: Ministerium L-BW Soziales
+    url: "https://soziales.baden-wuertemberg.de/de/soziales/foerderung"
+    category: DE_STATE
+    priority: 1
+
+  - name: Rhein-Neckar Förderung
+    url: "https://www.rhein-neckar-kreis.de/themen/foerderung"
+    category: DE_MUNICIPAL
+    priority: 2
+
+  # EU + International
+  - name: EU Funding Health Cluster
+    url: "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search?callCode=HORIZON-HLTH"
+    category: EU
+    priority: 1
+
+  - name: Wellcome Schemes
+    url: "https://wellcome.org/grant-funding/schemes"
+    category: INTL
+    priority: 1
+
+  - name: Alzheimer’s Association
+    url: "https://www.alz.org/research/for_researchers/funding-opportunities"
+    category: INTL
+    priority: 1
